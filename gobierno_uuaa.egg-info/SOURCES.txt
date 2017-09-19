@@ -1,0 +1,7 @@
+README.md
+gobierno_api/__init__.py
+gobierno_uuaa.egg-info/PKG-INFO
+gobierno_uuaa.egg-info/SOURCES.txt
+gobierno_uuaa.egg-info/dependency_links.txt
+gobierno_uuaa.egg-info/requires.txt
+gobierno_uuaa.egg-info/top_level.txt
