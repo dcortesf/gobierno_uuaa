@@ -8,11 +8,12 @@ mysql = MySQL()
 
 #MySQL configurations
 
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'danic0'
-app.config['MYSQL_DATABASE_DB'] = 'gobierno'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+#app.config['MYSQL_DATABASE_USER'] = 'root'
+#app.config['MYSQL_DATABASE_PASSWORD'] = 'danic0'
+#app.config['MYSQL_DATABASE_DB'] = 'gobierno'
+#app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
+app.config.from_object('config')
 mysql.init_app(app)
 
 uuaa = [
